@@ -1,0 +1,3 @@
+<button (click)="toggleData()" class="btn btn-primary">Display Data</button>
+<p *ngIf="show">Button Clicked!!!</p>
+<div *ngFor="let log of logging; index as i" [ngStyle]="{'backgroundColor': i >= 4 ? 'blue' : 'transparent'}" [ngClass]="{'text-color': i >= 4}">{{log}}</div>
