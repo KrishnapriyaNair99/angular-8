@@ -9,6 +9,11 @@ import { SuccessAlertsComponent } from './success_alerts/success_alerts.componen
 import { WarningAlertsComponent } from './warning_alerts/warning_alerts.component';
 import { DataBindingComponent } from './assignment-2-data-binding/data-binding.component';
 import { DirectivesComponent } from './assignment-3-directives/directives.component';
+import { CockpitComponent } from './cockpit/cockpit.component';
+import { ServerElementComponent } from './server-element/server-element.component';
+import { GameControlComponent } from './game-control/game-control.component';
+import { OddComponent } from './odd/odd.component';
+import { EvenComponent } from './even/even.component';
 
 
 @NgModule({
@@ -19,7 +24,12 @@ import { DirectivesComponent } from './assignment-3-directives/directives.compon
     WarningAlertsComponent,
     SuccessAlertsComponent,
     DataBindingComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    CockpitComponent,
+    ServerElementComponent,
+    GameControlComponent,
+    OddComponent,
+    EvenComponent
   ],
   imports: [
     BrowserModule,
