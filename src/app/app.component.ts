@@ -10,6 +10,11 @@ export class AppComponent {
   oddNumbers: number[] = [];
   evenNumbers: number[] = []
 
+  show:boolean;
+  oddNums = [1,3,5];
+  evenNums = [2,4,6,8];
+  value = 20;
+
   onServerAdded(serverData: {serverName: string, serverContent: string}) {
     this.serverElements.push({
       type: 'server',
